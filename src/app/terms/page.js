@@ -37,7 +37,7 @@ export default function TermsOfService() {
             <p>You may terminate this agreement at any time by uninstalling the App from your Shopify store. We may terminate or suspend your access to the App immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.</p>
 
             <h2 className="text-2xl font-semibold text-[#111] mt-8 mb-4">9. Contact Information</h2>
-            <p>If you have any questions about these Terms, please contact us at <a href="mailto:hello@trustflow.store" className="text-[#0089FF] hover:underline">hello@trustflow.store</a>.</p>
+            <p>If you have any questions about these Terms, please contact us at <a href="mailto:support@trustflow.store" className="text-[#0089FF] hover:underline">support@trustflow.store</a>.</p>
           </div>
         </div>
       </main>
