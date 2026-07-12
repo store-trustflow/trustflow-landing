@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
             <p>Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
 
             <p>
-              TrustFlow Reviews ("we", "our", or "us") provides a Shopify application to help merchants collect, manage, and analyze product reviews. This Privacy Policy describes how personal information is collected, used, and shared when you install or use the TrustFlow Reviews App (the "App") in connection with your Shopify-supported store.
+              Trustie Reviews ("we", "our", or "us") provides a Shopify application to help merchants collect, manage, and analyze product reviews. This Privacy Policy describes how personal information is collected, used, and shared when you install or use the Trustie Reviews App (the "App") in connection with your Shopify-supported store.
             </p>
 
             <h2 className="text-2xl font-semibold text-[#111] mt-8 mb-4">1. Personal Information the App Collects</h2>
@@ -58,7 +58,7 @@ export default function PrivacyPolicy() {
             <p>We may update this privacy policy from time to time in order to reflect, for example, changes to our practices or for other operational, legal or regulatory reasons.</p>
 
             <h2 className="text-2xl font-semibold text-[#111] mt-8 mb-4">7. Contact Us</h2>
-            <p>For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at <a href="mailto:support@trustflow.store" className="text-[#0089FF] hover:underline">support@trustflow.store</a>.</p>
+            <p>For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at <a href="mailto:support@trustie.store" className="text-[#0089FF] hover:underline">support@trustie.store</a>.</p>
           </div>
         </div>
       </main>

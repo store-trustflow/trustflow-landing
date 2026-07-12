@@ -7,7 +7,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Trustflow - Collect, manage, and display reviews all in one place",
+  title: "Trustie - Collect, manage, and display reviews all in one place",
   description: "Efficiently manage your store's social proof, build trust with elegant widgets, and boost productivity.",
 };
 

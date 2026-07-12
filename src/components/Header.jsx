@@ -9,8 +9,8 @@ export default function Header() {
   return (
     <header className="flex justify-between items-center py-6 px-4 md:px-16 max-w-7xl mx-auto w-full">
       <a href="/" className="flex items-center gap-2 font-bold text-xl text-[#111] no-underline">
-        <img src="/default-logo.svg" alt="TrustFlow Logo" width={28} height={28} className="object-contain" />
-        TrustFlow
+        <img src="/default-logo.svg" alt="Trustie Logo" width={28} height={28} className="object-contain" />
+        Trustie
       </a>
       
       {/* Desktop Navigation */}

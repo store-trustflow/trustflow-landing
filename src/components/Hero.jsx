@@ -49,7 +49,7 @@ export default function Hero() {
 
       {/* Main Content */}
       <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mb-8 shadow-[0_12px_32px_rgba(0,0,0,0.06)] border border-white/80 z-10">
-        <img src="/default-logo.svg" alt="TrustFlow Logo" width={40} height={40} className="object-contain" />
+        <img src="/default-logo.svg" alt="Trustie Logo" width={40} height={40} className="object-contain" />
       </div>
       
       <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-[#111] mb-6 leading-[1.1] z-10">

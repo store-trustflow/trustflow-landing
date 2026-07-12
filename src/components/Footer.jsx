@@ -48,8 +48,8 @@ export default function Footer() {
           <div className="lg:col-span-5 flex flex-col justify-between">
             <div>
               <div className="flex items-center gap-2 mb-4 font-bold text-lg text-[#111]">
-                <img src="/default-logo.svg" alt="TrustFlow Logo" width={24} height={24} className="object-contain" />
-                TrustFlow
+                <img src="/default-logo.svg" alt="Trustie Logo" width={24} height={24} className="object-contain" />
+                Trustie
               </div>
               <p className="text-[#6B7280] text-[15px] max-w-sm mb-10 leading-relaxed">
                 All-in-one social proof, review, and Q&A automation for your Shopify stores.
@@ -167,7 +167,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-16 pt-8 border-t border-[#EBEBEB] flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-[#9CA3AF]">
-          <p>© {new Date().getFullYear()} Trustflow. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Trustie. All rights reserved.</p>
           <p>Made for Shopify Merchants.</p>
         </div>
       </div>

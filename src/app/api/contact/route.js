@@ -9,35 +9,10 @@ export async function POST(request) {
     }
 
     const apiKey = process.env.BREVO_API_KEY;
-    const senderEmail = process.env.BREVO_LANDING_PAGE_SENDER_EMAIL || "hello@trustflow.store";
-    const recipientEmail = "store.trustflow@gmail.com"; // This is where you want to receive the form submissions
+    const senderEmail = process.env.BREVO_LANDING_PAGE_SENDER_EMAIL || "hello@trustie.store";
+    const recipientEmail = "store.trustie@gmail.com"; // This is where you want to receive the form submissions
     
     if (!apiKey) {
-      console.warn("BREVO_API_KEY is not configured.");
-    }
-
-    const payload = {
-      sender: {
-        name: name,
-        email: senderEmail 
-      },
-      replyTo: {
-        email: email,
-        name: name
-      },
-      to: [
-        {
-          email: recipientEmail,
-          name: "TrustFlow Team"
-        }
-      ],
-      subject: `New Contact Form Submission from ${name}`,
-      htmlContent: `
-        <h2>New Message from Contact Form</h2>
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Message:</strong></p>
-        <p>${message.replace(/\n/g, '<br>')}</p>
       `
     };
 
