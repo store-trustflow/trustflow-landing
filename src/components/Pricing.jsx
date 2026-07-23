@@ -20,7 +20,7 @@ const plans = [
   },
   {
     name: "Pro Plan",
-    price: "$9.99",
+    price: "$9.90",
     period: "/mo",
     description: "For stores looking to automate sales and build trust.",
     features: [
@@ -55,18 +55,17 @@ export default function Pricing() {
         {plans.map((plan, idx) => (
           <div
             key={idx}
-            className={`w-full max-w-sm flex flex-col bg-white rounded-3xl p-8 border ${
-              plan.popular 
-                ? 'border-[#0089FF] shadow-[0_20px_40px_rgba(0,137,255,0.12)] relative z-10 scale-100 md:scale-105' 
-                : 'border-[#EBEBEB] shadow-[0_12px_24px_rgba(0,0,0,0.04)] mt-0 md:mt-4 mb-0 md:mb-4'
-            }`}
+            className={`w-full max-w-sm flex flex-col bg-white rounded-3xl p-8 border ${plan.popular
+              ? 'border-[#0089FF] shadow-[0_20px_40px_rgba(0,137,255,0.12)] relative z-10 scale-100 md:scale-105'
+              : 'border-[#EBEBEB] shadow-[0_12px_24px_rgba(0,0,0,0.04)] mt-0 md:mt-4 mb-0 md:mb-4'
+              }`}
           >
             {plan.popular && (
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#0089FF] text-white text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider">
                 Most Popular
               </div>
             )}
-            
+
             <div className="mb-8">
               <h3 className="text-xl font-bold text-[#111] mb-2">{plan.name}</h3>
               <div className="flex items-baseline gap-1">
@@ -99,11 +98,10 @@ export default function Pricing() {
 
             <a
               href="#"
-              className={`w-full inline-flex justify-center items-center px-6 py-4 rounded-xl text-[15px] font-semibold transition-all ${
-                plan.popular
-                  ? 'bg-[#0089FF] hover:bg-[#0076e0] text-white shadow-[0_4px_12px_rgba(0,137,255,0.3)] hover:-translate-y-0.5'
-                  : 'bg-white hover:bg-[#F9FAFB] text-[#111] border border-[#EBEBEB] hover:border-[#D1D5DB]'
-              }`}
+              className={`w-full inline-flex justify-center items-center px-6 py-4 rounded-xl text-[15px] font-semibold transition-all ${plan.popular
+                ? 'bg-[#0089FF] hover:bg-[#0076e0] text-white shadow-[0_4px_12px_rgba(0,137,255,0.3)] hover:-translate-y-0.5'
+                : 'bg-white hover:bg-[#F9FAFB] text-[#111] border border-[#EBEBEB] hover:border-[#D1D5DB]'
+                }`}
             >
               {plan.buttonText}
             </a>
